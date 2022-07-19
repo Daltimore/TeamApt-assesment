@@ -1,6 +1,6 @@
 <template>
   <main
-    class="relative bg-[url('~/assets/svg-icons/bg-img.svg')] bg-no-repeat bg-cover"
+    class="relative bg-[url('https://res.cloudinary.com/dtq7cistx/image/upload/v1658191613/bg-img_oliben.svg')] bg-no-repeat bg-cover"
   >
     <div>
       <navbar></navbar>
