@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Poppins', sans-serif !important;
-  min-height: 100vh;
 }
 
 .inter {
@@ -45,7 +44,7 @@ body {
   animation: slide-in 1s ease-in-out 1.1s both;
 }
 
-.illustration-box {
+.animation-box {
   height: 650px;
   width: 100%;
   position: absolute;
@@ -53,7 +52,7 @@ body {
   left: 0;
   overflow: hidden;
 }
-.illustration-box .shimmer {
+.animation-box .rotating-star {
   height: 1350px;
   position: absolute;
   left: 50%;
@@ -63,20 +62,20 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.illustration-box .coin-pot {
+.animation-box .coin-pot {
   position: absolute;
   bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
   width: 500px;
 }
-.illustration-box .left-coin {
+.animation-box .left-coin {
   position: absolute;
   left: 32%;
   bottom: 120px;
   opacity: 0;
 }
-.illustration-box .right-coin {
+.animation-box .right-coin {
   position: absolute;
   right: 32%;
   bottom: 70px;
@@ -97,27 +96,27 @@ body {
   bottom: -50px;
 }
 
-.night-star-1 {
+.night-star-one {
   animation: random-star-1 5s ease-in-out infinite alternate, shooting-star 5s linear infinite;
   left: 50%;
 }
 
-.night-star-2 {
+.night-star-two {
   animation: random-star-2 8s ease-in-out 0.5s infinite alternate, shooting-star 8s linear 0.5s infinite;
   left: 38%;
 }
 
-.night-star-3 {
+.night-star-three {
   animation: random-star-1 10s ease-in-out 3s infinite alternate, shooting-star 10s linear 3s infinite;
   left: 40%;
 }
 
-.night-star-4 {
+.night-star-four {
   animation: random-star-2 8s ease-in-out 7s infinite alternate, shooting-star 8s linear 7s infinite;
   left: 45%;
 }
 
-.night-star-5 {
+.night-star-four {
   animation: random-star-1 5s ease-in-out 1s infinite alternate, shooting-star 5s linear 1s infinite;
   left: 55%;
 }
@@ -172,13 +171,13 @@ body {
 }
 
 @media (max-width: 768px) {
-  .illustration-box .coin-pot {
+  .animation-box .coin-pot {
     width: 400px;
   }
-  .illustration-box .left-coin {
+  .animation-box .left-coin {
     left: 5%;
   }
-  .illustration-box .right-coin {
+  .animation-box .right-coin {
     right: 5%;
   }
   .coins {
@@ -191,7 +190,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .illustration-box .shimmer {
+  .animation-box .rotating-star {
     height: 1250px;
     position: absolute;
     left: 50%;
@@ -201,14 +200,6 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-}
-
-.top-stars {
-  position: absolute;
-  top: 135px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px){
@@ -223,7 +214,7 @@ body {
     justify-content: space-between;
   }
 
-  .illustration-box .shimmer {
+  .animation-box .rotating-star {
     height: 1250px;
     position: absolute;
     left: 50%;
